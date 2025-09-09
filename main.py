@@ -98,7 +98,7 @@ def delete_from_supabase(file_name):
 
 # --- Run everything ---
 if __name__ == "__main__":
-    query = "YSJ 2.0"
+    query = "YS Jagan"
     video_data = get_trending_video(query)
     if video_data:
         file_name = "trending.mp4"
