@@ -101,7 +101,7 @@ if __name__ == "__main__":
     query = "YS Jagan"
     video_data = get_trending_video(query)
     if video_data:
-        raw_file = f"trending_raw-{random.randint(1,1000)}.mp4"
+        file_file = f"trending_raw-{random.randint(1,1000)}.mp4"
         uploaded_url = upload_video_to_supabase(video_data["url"], file_name)
 
         # Caption auto-built from Twitter description + hashtags
