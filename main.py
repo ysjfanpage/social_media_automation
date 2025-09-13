@@ -38,7 +38,7 @@ def get_trending_video(query):
                     return {
                         "title": f"*{tweet.get('screen_name', query)}*",
                         "description": tweet.get("text", "No description"),
-                        "hashtags": f"#{query.replace(' ', '')} #Tollywood #Cinema #TFI",
+                        "hashtags": f"#{query.replace(' ', '')} #Telugu #Politics #AP",
                         "url": best_video["url"]
                     }
     except Exception as e:
